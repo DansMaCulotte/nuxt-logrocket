@@ -37,9 +37,9 @@
 
   // Or with global options
   logRocket: {
-    logRocketId: '',
+    id: '',
     devModeAllowed: false,
-    disable: false
+    disabled: false
   }
 }
 ```
@@ -59,10 +59,10 @@ Setting a value for the required `logRocketId` option is enough in most cases.
 - Type: `Boolean`
   - Default: `process.env.LOGROCKET_DEV_MODE_ALLOWED || false`
 
-### disable
+### disabled
 
 - Type: `Boolean`
-  - Default: `process.env.LOGROCKET_DISABLE || false`
+  - Default: `process.env.LOGROCKET_DISABLED || false`
 
 
 ## Usage
