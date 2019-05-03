@@ -47,23 +47,32 @@
 ## Options
 
 Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.
-Setting a value for the required `logRocketId` option is enough in most cases.
+Setting a value for the required `id` option is enough in most cases.
 
-### logRocketId
+### id
 
 - Type: `String`
   - Default: `process.env.LOGROCKET_ID || ''`
 
 ### devModeAllowed
 
+Force LogRocket to load in development.
+
 - Type: `Boolean`
   - Default: `process.env.LOGROCKET_DEV_MODE_ALLOWED || false`
 
 ### disabled
 
+Prevent LogRocket from loading automatically, useful for GDPR compliance.
+
 - Type: `Boolean`
   - Default: `process.env.LOGROCKET_DISABLED || false`
 
+You can manually load LogRocket by using `enable` method in your application:
+
+```js
+this.$logRocket.enable()
+```
 
 ## Usage
 
@@ -84,6 +93,8 @@ app.$logRocket
 in plugins.
 
 If Vuex store is initialized, LogRocket Vuex plugin will be automatically registered.
+
+
 
 Visit LogRocket's website for a full list of features : [Docs](https://docs.logrocket.com/docs)
 

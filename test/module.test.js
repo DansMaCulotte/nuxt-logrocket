@@ -20,7 +20,7 @@ describe('basic', () => {
   })
 
   test('render', async () => {
-    let html = await get('/')
-    expect(html).toContain('Works!')
+    const html = await get('/')
+    expect(html).toContain('Count:')
   })
 })
