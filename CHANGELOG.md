@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.1.0](https://github.com/dansmaculotte/nuxt-logrocket/compare/v1.2.0...v0.1.0) (2019-05-03)
+
+
+### Bug Fixes
+
+* typo on disabled feature ([385fed1](https://github.com/dansmaculotte/nuxt-logrocket/commit/385fed1))
+
+
+### Features
+
+* add GDPR compliance with enable method ([ec51115](https://github.com/dansmaculotte/nuxt-logrocket/commit/ec51115))
+
+
+
 # [1.2.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.1.0...v1.2.0) (2019-04-06)
 
 
