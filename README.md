@@ -2,8 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Circle CI][circle-ci-src]][circle-ci-href]
-[![Codecov][codecov-src]][codecov-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
 
@@ -68,10 +66,10 @@ Prevent LogRocket from loading automatically, useful for GDPR compliance.
 - Type: `Boolean`
   - Default: `process.env.LOGROCKET_DISABLED || false`
 
-You can manually load LogRocket by using `enable` method in your application:
+You can manually load LogRocket by using `load` method in your application:
 
 ```js
-this.$logRocket.enable()
+this.$logRocket.load()
 ```
 
 ## Usage
@@ -94,8 +92,6 @@ in plugins.
 
 If Vuex store is initialized, LogRocket Vuex plugin will be automatically registered.
 
-
-
 Visit LogRocket's website for a full list of features : [Docs](https://docs.logrocket.com/docs)
 
 ## Development
@@ -114,12 +110,6 @@ Visit LogRocket's website for a full list of features : [Docs](https://docs.logr
 
 [npm-downloads-src]: https://img.shields.io/npm/v/@dansmaculotte/nuxt-logrocket/latest.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@dansmaculotte/nuxt-logrocket
-
-[circle-ci-src]: https://img.shields.io/circleci/project/github/dansmaculotte/nuxt-logrocket.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/dansmaculotte/nuxt-logrocket
-
-[codecov-src]: https://img.shields.io/codecov/c/github/dansmaculotte/nuxt-logrocket.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/dansmaculotte/nuxt-logrocket
 
 [david-dm-src]: https://david-dm.org/dansmaculotte/nuxt-logrocket/status.svg?style=flat-square
 [david-dm-href]: https://david-dm.org/dansmaculotte/nuxt-logrocket
